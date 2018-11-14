@@ -15,7 +15,7 @@ spec:
         app: pipeline
     spec:
       containers:
-      - image: gcr.io/turnkey-chimera-222516/pipeline:f10c42af071b37a50a305776a7698d3def5079a5
+      - image: gcr.io/turnkey-chimera-222516/pipeline:9706cbe541dc284eb40e51ce28367f3b4abb6297
         name: pipeline
         ports:
         - containerPort: 80
